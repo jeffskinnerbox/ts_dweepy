@@ -49,7 +49,7 @@ Once you have a copy of the source, you can embed it in your Python package, or 
 
     $ sudo python3 setup.py build
     $ sudo python3 setup.py install
-    $ sudo rm -f -r ts_dweepy ts_dweepy.egg-info build dist
+    $ sudo rm -f -r ts_dweepy.egg-info build dist
 
 Finally, the test program, `python3 test_ts_dweepy.py`, in the `test` directory
 should run without any erros or comments.
