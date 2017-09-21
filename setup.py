@@ -8,23 +8,23 @@ except ImportError:
 
 
 setup(
-    name='dweepy',
+    name='ts_dweepy',
     version='0.3.0',
-    description='Dweepy is a Python client for dweet.io',
+    description='TS_Dweepy is a Python client for dweet.io on ThingSpace',
     long_description=open('README.rst').read(),
-    author='Patrick Carey',
-    author_email='paddy@wackwack.co.uk',
-    url='https://github.com/paddycarey/dweepy',
+    author='Jeff Irland',
+    author_email='jeffskinnerbox@yahoo.com',
+    url='https://github.com/jeffskinnerbox/ts_dweepy',
     packages=[
-        'dweepy',
+        'ts_dweepy',
     ],
-    package_dir={'dweepy':
-                 'dweepy'},
+    package_dir={'ts_dweepy':
+                 'ts_dweepy'},
     include_package_data=True,
     install_requires=['requests >= 2, < 3'],
     license="MIT",
     zip_safe=False,
-    keywords='dweepy dweet dweet.io',
+    keywords='ts_dweepy dweepy dweet dweet.io',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
@@ -39,5 +39,5 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
-    test_suite='tests_dweepy',
+    test_suite='tests_ts_dweepy',
 )

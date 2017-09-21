@@ -1,18 +1,8 @@
 ===============================
-Dweepy
+TS_Dweepy
 ===============================
 
-.. image:: https://img.shields.io/pypi/v/dweepy.svg?style=flat
-    :target: https://pypi.python.org/pypi/dweepy/
-    :alt: Latest PyPI version
-
-.. image:: https://img.shields.io/pypi/dm/dweepy.svg?style=flat
-    :target: https://pypi.python.org/pypi/dweepy/
-    :alt: Number of PyPI downloads
-
-.. image:: https://img.shields.io/travis/paddycarey/dweepy/master.png?style=flat
-    :target: https://travis-ci.org/paddycarey/dweepy
-    :alt: Travis CI build status
+**This is a clone of the Python client for Dweet.io, called dweepy, but now pointing at ThingSpace**
 
 Dweepy is a simple Python client for `dweet.io <https://dweet.io>`_. Dweepy has a full test suite and aims to have 100% coverage of the `dweet.io <https://dweet.io>`_ API (we're pretty much there already).
 
@@ -57,8 +47,12 @@ Or download the `tarball <https://github.com/paddycarey/dweepy/tarball/master>`_
 
 Once you have a copy of the source, you can embed it in your Python package, or install it into your site-packages easily::
 
-    $ python setup.py install
+    $ sudo python3 setup.py build
+    $ sudo python3 setup.py install
+    $ sudo rm -f -r ts_dweepy ts_dweepy.egg-info build dist
 
+Finally, the test program, `python3 test_ts_dweepy.py`, in the `test` directory
+should run without any erros or comments.
 
 
 Usage
