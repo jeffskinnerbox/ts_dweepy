@@ -19,7 +19,8 @@ import requests
 
 
 # base url for all requests
-BASE_URL = 'https://dweet.io'
+# BASE_URL = 'https://dweet.io'
+BASE_URL = 'https://thingspace.io/dweet'
 
 
 class DweepyError(Exception):

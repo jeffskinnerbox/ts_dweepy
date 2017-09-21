@@ -26,7 +26,8 @@ except NameError:
 
 
 # base url for all requests
-BASE_URL = 'https://dweet.io'
+# BASE_URL = 'https://dweet.io'
+BASE_URL = 'https://thingspace.io/dweet'
 
 
 def _check_stream_timeout(started, timeout):
